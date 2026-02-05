@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anurag Nimkande | Software Engineer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Source+Code+Pro:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-theme="light">
+  <!-- Navigation -->
+  <nav>
+    <div class="nav-container">
+      <a href="#" class="logo">
+        <span class="logo-code">&lt;AN/&gt;</span>
+      </a>
+      
+      <div class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+      
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle">
+          <i class="fas fa-moon"></i>
+        </button>
+        <button class="mobile-toggle" id="mobileToggle">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-background"></div>
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <div class="greeting fade-in">Hello, I'm</div>
+          <h1 class="fade-in delay-1">Anurag <span class="hero-title">Nimkande</span></h1>
+          <p class="hero-description fade-in delay-2">
+            A Computer Engineering student specializing in scalable software solutions. 
+            I build efficient systems with modern technologies and clean architecture.
+          </p>
+          <div class="hero-actions fade-in delay-3">
+            <a href="#projects" class="btn btn-primary">
+              <i class="fas fa-code"></i> View Projects
+            </a>
+            <a href="#contact" class="btn btn-outline">
+              <i class="fas fa-envelope"></i> Contact Me
+            </a>
+          </div>
+        </div>
+        
+        <div class="hero-visual fade-in delay-2">
+          <div class="code-window">
+            <div class="window-header">
+              <div class="window-dot dot-red"></div>
+              <div class="window-dot dot-yellow"></div>
+              <div class="window-dot dot-green"></div>
+            </div>
+            <div class="window-content">
+              <div class="code-line">
+                <span class="line-number">1</span>
+                <span class="code-keyword">class</span> SoftwareEngineer {
+              </div>
+              <div class="code-line">
+                <span class="line-number">2</span>
+                &nbsp;&nbsp;<span class="code-keyword">constructor</span>() {
+              </div>
+              <div class="code-line">
+                <span class="line-number">3</span>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span class="code-keyword">this</span>.name = <span class="code-string">"Anurag Nimkande"</span>;
+              </div>
+              <div class="code-line">
+                <span class="line-number">4</span>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span class="code-keyword">this</span>.role = <span class="code-string">"Full Stack Developer"</span>;
+              </div>
+              <div class="code-line">
+                <span class="line-number">5</span>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span class="code-keyword">this</span>.techStack = [
+              </div>
+              <div class="code-line">
+                <span class="line-number">6</span>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-string">"Java"</span>, <span class="code-string">"Python"</span>, <span class="code-string">"React"</span>,
+              </div>
+              <div class="code-line">
+                <span class="line-number">7</span>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-string">"Node.js"</span>, <span class="code-string">"Django"</span>
+              </div>
+              <div class="code-line">
+                <span class="line-number">8</span>
+                &nbsp;&nbsp;&nbsp;&nbsp;];
+              </div>
+              <div class="code-line">
+                <span class="line-number">9</span>
+                &nbsp;&nbsp;}
+              </div>
+              <div class="code-line">
+                <span class="line-number">10</span>
+                }
+              </div>
+              <div class="code-line">
+                <span class="line-number">11</span>
+                <span class="code-comment">// Building robust, scalable solutions</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <div class="container">
+      <div class="section-header fade-in">
+        <h2 class="section-title">Technical Expertise</h2>
+        <p class="section-subtitle">
+          Proficient in modern technologies with focus on scalable architecture and clean code practices.
+        </p>
+      </div>
+      
+      <div class="grid grid-3">
+        <div class="card fade-in">
+          <div class="card-icon">
+            <i class="fas fa-server"></i>
+          </div>
+          <h3 class="card-title">Backend Development</h3>
+          <p class="card-description">
+            Building robust server-side applications and APIs with focus on performance, security, and scalability.
+          </p>
+          <div class="skill-tags">
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">Node.js</span>
+            <span class="skill-tag">Django</span>
+            <span class="skill-tag">Flask</span>
+            <span class="skill-tag">Spring Boot</span>
+          </div>
+        </div>
+        
+        <div class="card fade-in delay-1">
+          <div class="card-icon">
+            <i class="fas fa-layer-group"></i>
+          </div>
+          <h3 class="card-title">Frontend Development</h3>
+          <p class="card-description">
+            Creating responsive, user-friendly interfaces with modern frameworks and best practices.
+          </p>
+          <div class="skill-tags">
+            <span class="skill-tag">React</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">TypeScript</span>
+            <span class="skill-tag">HTML/CSS</span>
+            <span class="skill-tag">Bootstrap</span>
+            <span class="skill-tag">Tailwind CSS</span>
+          </div>
+        </div>
+        
+        <div class="card fade-in delay-2">
+          <div class="card-icon">
+            <i class="fas fa-database"></i>
+          </div>
+          <h3 class="card-title">Data & Infrastructure</h3>
+          <p class="card-description">
+            Designing efficient data storage solutions and managing deployment pipelines.
+          </p>
+          <div class="skill-tags">
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">MongoDB</span>
+            <span class="skill-tag">PostgreSQL</span>
+            <span class="skill-tag">Docker</span>
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">AWS</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="section">
+    <div class="container">
+      <div class="section-header fade-in">
+        <h2 class="section-title">Experience & Certifications</h2>
+        <p class="section-subtitle">
+          Professional journey and industry-recognized certifications.
+        </p>
+      </div>
+      
+      <div class="timeline">
+        <div class="timeline-item fade-in">
+          <div class="timeline-dot">
+            <i class="fas fa-briefcase"></i>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-date">
+              <i class="far fa-calendar"></i> June 2023 – July 2023
+            </div>
+            <h3 class="card-title">Industrial Training – Sun Infotech</h3>
+            <p class="card-description">
+              Developed a comprehensive Blood Bank management system using Java Servlets and MySQL. 
+              Implemented inventory management, donor tracking, and advanced search functionality.
+            </p>
+            <div class="skill-tags">
+              <span class="skill-tag">Java</span>
+              <span class="skill-tag">Servlets</span>
+              <span class="skill-tag">MySQL</span>
+              <span class="skill-tag">JSP</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="timeline-item fade-in delay-1">
+          <div class="timeline-dot">
+            <i class="fas fa-certificate"></i>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-date">
+              <i class="far fa-calendar"></i> October 2025
+            </div>
+            <h3 class="card-title">IBM Full Stack Software Developer</h3>
+            <p class="card-description">
+              Completed professional certification covering modern full-stack development including 
+              React, Node.js, Django, Docker, and cloud-native application development principles.
+            </p>
+            <div class="skill-tags">
+              <span class="skill-tag">Full Stack</span>
+              <span class="skill-tag">React</span>
+              <span class="skill-tag">Node.js</span>
+              <span class="skill-tag">Docker</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-header fade-in">
+        <h2 class="section-title">Featured Projects</h2>
+        <p class="section-subtitle">
+          Selected projects showcasing technical skills and problem-solving approach.
+        </p>
+      </div>
+      
+      <div class="project-grid">
+        <div class="project-card fade-in">
+          <div class="project-image">
+            <i class="fas fa-network-wired fa-3x"></i>
+          </div>
+          <div class="project-content">
+            <h3 class="card-title">Alumni Information System</h3>
+            <p class="card-subtitle">Django • MongoDB • React</p>
+            <p class="card-description">
+              A comprehensive platform for managing alumni data, facilitating networking, and tracking 
+              career progression. Features include secure authentication, advanced search, and analytics dashboard.
+            </p>
+            <div class="project-tech">
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">Django</span>
+              <span class="skill-tag">MongoDB</span>
+              <span class="skill-tag">React</span>
+              <span class="skill-tag">JWT Auth</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link">
+                <i class="fab fa-github"></i> Source Code
+              </a>
+              <a href="#" class="project-link">
+                <i class="fas fa-external-link-alt"></i> Live Demo
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="project-card fade-in delay-1">
+          <div class="project-image">
+            <i class="fas fa-link fa-3x"></i>
+          </div>
+          <div class="project-content">
+            <h3 class="card-title">Blockchain File Sharing</h3>
+            <p class="card-subtitle">React • Node.js • Blockchain</p>
+            <p class="card-description">
+              Secure file sharing system implementing blockchain technology for tamper-proof 
+              data exchange. Features include encryption, audit trails, and decentralized storage.
+            </p>
+            <div class="project-tech">
+              <span class="skill-tag">Blockchain</span>
+              <span class="skill-tag">React</span>
+              <span class="skill-tag">Node.js</span>
+              <span class="skill-tag">IPFS</span>
+              <span class="skill-tag">Encryption</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link">
+                <i class="fab fa-github"></i> Source Code
+              </a>
+              <a href="#" class="project-link">
+                <i class="fas fa-external-link-alt"></i> Case Study
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="project-card fade-in delay-2">
+          <div class="project-image">
+            <i class="fas fa-cloud fa-3x"></i>
+          </div>
+          <div class="project-content">
+            <h3 class="card-title">IPFS Personal Drive</h3>
+            <p class="card-subtitle">Django • IPFS • Web3</p>
+            <p class="card-description">
+              Decentralized personal storage solution using IPFS protocol. Implements secure 
+              file upload, access control, and efficient retrieval with Web3 authentication.
+            </p>
+            <div class="project-tech">
+              <span class="skill-tag">IPFS</span>
+              <span class="skill-tag">Django</span>
+              <span class="skill-tag">Web3</span>
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">Cryptography</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link">
+                <i class="fab fa-github"></i> Source Code
+              </a>
+              <a href="#" class="project-link">
+                <i class="fas fa-external-link-alt"></i> Documentation
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="section">
+    <div class="container">
+      <div class="section-header fade-in">
+        <h2 class="section-title">Education</h2>
+        <p class="section-subtitle">
+          Academic background in Computer Engineering with focus on software development and systems design.
+        </p>
+      </div>
+      
+      <div class="grid grid-2">
+        <div class="card fade-in">
+          <div class="card-icon">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <h3 class="card-title">B.Tech in Computer Engineering</h3>
+          <p class="card-subtitle">Vishwakarma Institute of Technology, Pune</p>
+          <p class="card-description">
+            Currently pursuing Bachelor's degree with focus on software engineering, 
+            algorithms, data structures, and distributed systems. Active member of 
+            coding clubs and technical committees.
+          </p>
+          <div class="skill-tags">
+            <span class="skill-tag">CGPA: 9.13</span>
+            <span class="skill-tag">2023 - Present</span>
+            <span class="skill-tag">Dean's List</span>
+          </div>
+        </div>
+        
+        <div class="card fade-in delay-1">
+          <div class="card-icon">
+            <i class="fas fa-certificate"></i>
+          </div>
+          <h3 class="card-title">Diploma in Computer Engineering</h3>
+          <p class="card-subtitle">Government Polytechnic, Amravati</p>
+          <p class="card-description">
+            Completed with distinction, focusing on foundational programming concepts, 
+            database management, and web technologies. Developed multiple practical 
+            projects during this period.
+          </p>
+          <div class="skill-tags">
+            <span class="skill-tag">Percentage: 94.5%</span>
+            <span class="skill-tag">2020 - 2023</span>
+            <span class="skill-tag">First Class</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section-header fade-in">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-subtitle">
+          Interested in collaborating or have questions? Feel free to reach out.
+        </p>
+      </div>
+      
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-item fade-in">
+            <div class="contact-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div>
+              <h3 class="card-title">Email</h3>
+              <p class="card-description">anurag.nimkande@gmail.com</p>
+            </div>
+          </div>
+          
+          <div class="contact-item fade-in delay-1">
+            <div class="contact-icon">
+              <i class="fab fa-linkedin"></i>
+            </div>
+            <div>
+              <h3 class="card-title">LinkedIn</h3>
+              <p class="card-description">linkedin.com/in/anurag-nimkande</p>
+            </div>
+          </div>
+          
+          <div class="contact-item fade-in delay-2">
+            <div class="contact-icon">
+              <i class="fab fa-github"></i>
+            </div>
+            <div>
+              <h3 class="card-title">GitHub</h3>
+              <p class="card-description">github.com/anuragnimkande</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="contact-form fade-in delay-3">
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" id="name" class="form-control" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" id="email" class="form-control" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="message" class="form-label">Message</label>
+              <textarea id="message" class="form-control" required></textarea>
+            </div>
+            
+            <button type="submit" class="btn btn-primary">
+              <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-links">
+        <a href="#home" class="footer-link">Home</a>
+        <a href="#skills" class="footer-link">Skills</a>
+        <a href="#projects" class="footer-link">Projects</a>
+        <a href="#contact" class="footer-link">Contact</a>
+      </div>
+      <div class="copyright">
+        © 2026 Anurag Nimkande. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
